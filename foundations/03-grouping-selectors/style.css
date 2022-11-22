@@ -1,0 +1,21 @@
+.first {
+    background-color: black;
+    color: white;
+    display: table;
+}
+.second {
+    background-color: yellow;
+    display: table;
+}
+.both {
+    font-size: 28px;
+    font-style: "Helvetica", "Times New Roman", sans-serif;
+    cursor: pointer
+}
+.first.both:hover {
+    background-color: white;
+    color: black;
+}
+.second.both:hover {
+    background-color: white;
+}
